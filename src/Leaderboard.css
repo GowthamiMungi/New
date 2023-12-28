@@ -1,0 +1,40 @@
+
+.leaderboard {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .leaderboard h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  .leaderboard-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .leaderboard-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .leaderboard-item:last-child {
+    border-bottom: none;
+  }
+
+  .player-name {
+    font-weight: bold;
+  }
+
+  .player-score {
+    color: #4caf50;
+    font-weight: bold;
+  }
